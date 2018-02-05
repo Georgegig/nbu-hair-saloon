@@ -29,7 +29,7 @@ public class StartProcedureTask implements Task {
       try {
           sleep((int)(Math.random()*1000));
       } catch (InterruptedException e){
-          out.println(String.format("Failed executing task: ", getTaskName()));
+          out.println(String.format("Failed executing task: %s", getTaskName()));
       }
 
       outStream.println("Client haircut style is: " + userOder + " If you like your hairstyle you can proceed to payment. Else you can restyle your hair.");

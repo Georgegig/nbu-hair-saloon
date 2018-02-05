@@ -1,7 +1,6 @@
 package taskHandler;
 import static java.lang.System.out;
 import common.Customer;
-import java.io.PrintWriter;
 import java.net.Socket;
 
 public class LeaveHairSaloonTask implements Task {

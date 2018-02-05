@@ -20,7 +20,7 @@ public class RestyleHaircutTask implements Task {
         try {
             sleep((int)(Math.random()*1000));
         } catch (InterruptedException e){
-            out.println(String.format("Failed executing task: ", getTaskName()));
+            out.println(String.format("Failed executing task: %s", getTaskName()));
         }
         outStream.println("Customer haircut has been restyled. Please pay your service.");
     }

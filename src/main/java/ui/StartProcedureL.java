@@ -21,8 +21,8 @@ public class StartProcedureL implements ActionListener {
   }
 
   public void actionPerformed(ActionEvent e) {
-    outputArea.setText("Working on the haircut");
     outStream.println(String.format("procedure:%s", hairStyleTextField.getText()));
+    outputArea.setText("Working on the haircut");
     String serverResponse;
     try {
       while (true) {
